@@ -1,0 +1,8 @@
+.civica-text {     /*las letras de la barra de navegacion 'civica' al lado del logo Civica*/
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 5px;
+  color: #333333;
+}
