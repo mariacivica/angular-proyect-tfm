@@ -5,9 +5,10 @@ import { HomeComponent } from './auth/home/home.component';
 import { RegisterFormComponent } from './auth/register-form/register-form.component';
 
 const routes: Routes = [
-  {path: 'inicio-sesion', component: LoginFormComponent},
-  {path: 'home', component:HomeComponent},
-  {path: 'registro', component: RegisterFormComponent},
+  { path: '', redirectTo: '/home', pathMatch: 'full' },
+  { path: 'inicio-sesion', component: LoginFormComponent },
+  { path: 'home', component:HomeComponent },
+  { path: 'registro', component: RegisterFormComponent },
 ];
 
 @NgModule({
