@@ -1,0 +1,20 @@
+.header {
+  padding: 80px; /* Ancho del rectángulo */
+  background-color: #EE880E; /* Color de fondo del rectángulo */
+  border: 2px solid rgb(255, 255, 255); /* Borde del rectángulo */
+  border-radius: 5px; /* Radio de borde */
+  width: 100%; /* El rectángulo cubre toda la pantalla horizontalmente */
+  display: flex;      /* Activa flexbox */
+  flex-direction: column; /* Organiza los hijos en columnas */
+  align-items: flex-start; /* Alinea los elementos al inicio del contenedor */
+}
+
+.software-text {     /*las letras de la cabecera 'software' al lado del logo Civica*/
+  font-family: 'Lato', sans-serif;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 5px;
+  color: white;
+}
+
+

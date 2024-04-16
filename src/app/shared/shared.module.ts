@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { HeaderComponent } from './components/header/header.component';
 import { BodyComponent } from './components/body/body.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 
 
@@ -10,7 +11,8 @@ import { BodyComponent } from './components/body/body.component';
   declarations: [
     NavbarComponent,
     HeaderComponent,
-    BodyComponent
+    BodyComponent,
+    FooterComponent
   ],
   imports: [
     CommonModule
@@ -18,7 +20,8 @@ import { BodyComponent } from './components/body/body.component';
   exports: [
     NavbarComponent,
     HeaderComponent,
-    BodyComponent
+    BodyComponent,
+    FooterComponent
   ]
 })
 export class SharedModule { }
