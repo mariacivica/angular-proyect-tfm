@@ -5,7 +5,7 @@ import { SharedModule } from './shared/shared.module';    //los modulos antes qu
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { HeaderComponent } from './shared/components/header/header.component';
+
 
 
 @NgModule({
