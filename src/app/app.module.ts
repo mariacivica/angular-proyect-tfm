@@ -11,6 +11,7 @@ import { HomeComponent } from './auth/home/home.component';
 
 
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -22,6 +23,7 @@ import { HomeComponent } from './auth/home/home.component';
     BrowserModule,
     AppRoutingModule,
     SharedModule, //importacion del modulo shared
+
   ],
   providers: [],
   bootstrap: [AppComponent]

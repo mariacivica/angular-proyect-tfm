@@ -2,8 +2,8 @@
   background-color: #EE880E;
   color: white;
   border: none;
-  border-radius: 25px; /* This will make the button corners rounded */
-  padding: 10px 20px; /* This will make the button wider */
+  border-radius: 10px;
+  padding: 10px 20px;
 }
 
 .login-button:hover {

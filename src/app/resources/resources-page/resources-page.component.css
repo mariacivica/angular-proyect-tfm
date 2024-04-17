@@ -1,0 +1,23 @@
+.card-img-custom {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+}
+
+.card {
+  border: 0 px solid #333;
+  padding: 20px;
+  max-width: 340px;
+
+}
+
+.resources-button {
+  background-color: #EE880E;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 20px;
+}
+
+
+
